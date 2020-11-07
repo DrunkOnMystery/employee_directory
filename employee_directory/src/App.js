@@ -4,6 +4,7 @@ import Wrapper from "./components/Wrapper";
 import Header from "./components/Header";
 
 import "./App.css";
+// import Nav from "./components/Nav";
 
 function App() {
   return (
@@ -17,3 +18,13 @@ function App() {
 }
 
 export default App;
+
+// App
+//   Wrapper
+//     Header 
+//     Main 
+//       DataArea
+//         Nav
+//           SearchBox
+//         DataTable
+//           DataBody
