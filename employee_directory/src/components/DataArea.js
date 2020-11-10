@@ -1,13 +1,13 @@
 import React from "react";
-import Nav from "./components/Nav";
-import DataTable from "./components/DataTable";
-import "../styles/DataArea.css";
+import Nav from "./Nav";
+import DataTable from "./DataTable";
+// import "../styles/DataArea.css";
 
 function DataArea() {
-    return(
+    return (
         <div className="DataArea">
-        <Nav />
-        <DataTable />
+            <Nav />
+            <DataTable />
         </div>
     )
 }
